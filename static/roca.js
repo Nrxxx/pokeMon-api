@@ -27,13 +27,13 @@ async function fetchAndRenderPokemon() {
             pokemonCard.addEventListener("click", () => {
                 const abilities = pokemon.abilities.map(a => a.ability.name).join(", ");
                 const stats = pokemon.stats.map(s => `${s.stat.name}: ${s.base_stat}`).join("\n");
-                alert(`
-                    Nombre: ${name}
-                    ID: ${pokemon.id}
-                    Tipo: ${primaryType}
-                    Habilidades: ${abilities}
-                    ${stats}
-                `);
+                Swal.fire({
+                    title: `Nombre: ${name}`,
+                    html: `
+                    <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}"/> <br> <strong>HABILIDADES:</strong> ${abilities} <br> <strong>TIPO:</strong> ${primaryType} <br> <strong>ID:</strong> ${pokemon.id} <br> <strong>ESTADISTICAS:</strong> ${stats}
+                    `,
+                    confirmButtonText: 'cerrar'
+                });
             });
 
             if (containerMap[primaryType]) {
