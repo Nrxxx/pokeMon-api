@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/img/thimo-pedersen-dip9IIwUK6w-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    padding: 20px;
+    color: #000000;
+}
+
+{
+    text-align: center;
+    color: #ffffff;
+}
