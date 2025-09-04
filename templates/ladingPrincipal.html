@@ -7,22 +7,41 @@
     <link type="img/logo" rel="shortcut icon" href="/img/pokemon-logo.jpg" sizes="180x180" data-react-helmet="true">
     <link rel="stylesheet" href="/static/ladingPrincipal.css">
 </head>
-<body class="body-container">
-    <header>
-        <div>
-            <button>Tipos</button>
-            <img src="/img/pokedex-removebg-preview.png" alt="">
-            <button>Nosotros</button>
-            <button>Contacto</button>
-            <button>Ayuda</button>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <div class="container-header">
+                <button class="btn"><i class="arrow"></i>TIPOS</button>
+                <div class="dropDown">
+                    <a href="">ACERO</a>
+                    <a href="">AGUA</a>
+                    <a href="">BICHO</a>
+                    <a href="">DRAGON</a>
+                    <a href="">ELECTRICO</a>
+                    <a href="">FANTASMA</a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href="/templates/TIPOS DE POKEMON/roca.html">ROCA</a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
         </div>
+
+        <div class="header-center"></div>
+
+        <div class="header-right"></div>
     </header>
 
-
-    <nav></nav>
+    <div class="header-spacer"></div>
 
     <main>
-        <h1>Que son los pokemones?</h1>
+        <h1 class="title">¿Que son los pokemones?</h1>
         <p>Los Pokémon son criaturas ficticias con diferentes formas, tamaños y habilidades que habitan el mundo de la franquicia Pokémon. El nombre Pokémon es una abreviatura de "Monstruos de Bolsillo" (Pocket Monsters), y la franquicia fue creada por Satoshi Tajiri. Los "Entrenadores" los crían, cuidan y entrenan para que se vuelvan más fuertes, aprendan nuevos movimientos y, en muchos casos, evolucionen a formas más poderosas. </p>
         <h2>Mundo Pokemon</h2>
         <ul>
@@ -40,7 +59,7 @@
                 </ul>
             </li>
         </ul>
-        <h2>Tipos de Pokemon</h2> 
+        <h2 class="title">Tipos de Pokemon</h2> 
         <h3>Concepto</h3>
         <p>Los Pokémon son criaturas ficticias, inspiradas en animales reales, insectos, plantas, objetos o seres mitológicos. Viven en un mundo junto a los humanos y poseen habilidades especiales que se manifiestan a través de diferentes "tipos". El concepto central de la franquicia es que los humanos, conocidos como entrenadores, los capturan, entrenan y combaten con ellos para fortalecer sus lazos y poner a prueba su fuerza y sabiduría.</p>
         <p>En el universo Pokémon, existen 18 tipos elementales, los cuales definen las fortalezas, debilidades, resistencias e inmunidades de cada criatura y sus movimientos. Esta tabla de tipos es fundamental para la estrategia de los combates, ya que un movimiento de un tipo puede ser muy efectivo (x2), poco efectivo (x 21), o incluso no tener efecto (x0) contra un Pokémon de otro tipo.</p>
@@ -104,5 +123,5 @@
             
     </main>
 </body>
-<script src="/static/landingPrincipalJS.JS"></script>
+<script src="/static/app.js"></script>
 </html>
