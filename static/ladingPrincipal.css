@@ -48,12 +48,41 @@ body {
 }
 
 .header-spacer {
-    height: 70px;
+    height: 100px;
 }
 
-.title {
-    text-align: center;
-    color: rgb(255, 255, 255);
+.main-spacer {
+    height: 5px;
+}
+
+.nube-main {
+    background-color: #fff;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nube-p {
+    background-color: #70e2d9;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nube h1 {
+    background-color: #fff;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)
 }
 
 /* =========================
