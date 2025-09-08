@@ -47,3 +47,31 @@ async function fetchAndRenderPokemon() {
 }
 
 fetchAndRenderPokemon();
+
+// =========================
+// MENÚ DESPLEGABLE
+// =========================
+document.addEventListener("DOMContentLoaded", () => {
+  const dropdownBtns = document.querySelectorAll(".btn");
+
+  dropdownBtns.forEach((dropdownBtn) => {
+    const dropdownMenu = dropdownBtn.parentElement.querySelector(".dropDown");
+
+    if (!dropdownMenu) return;
+
+    const toggleDropdown = () => {
+      dropdownMenu.classList.toggle("show");
+    };
+
+    dropdownBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggleDropdown();
+    });
+
+    document.documentElement.addEventListener("click", () => {
+      if (dropdownMenu.classList.contains("show")) {
+        dropdownMenu.classList.remove("show");
+      }
+    });
+  });
+});

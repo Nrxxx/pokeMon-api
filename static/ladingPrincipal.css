@@ -1,10 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/img/Gemini_Generated_Image_ejwxz2ejwxz2ejwx.png");
+    background-image: url("/img/Gemini_Generated_Image_ylcqfjylcqfjylcq.png");
     background-size: cover;
     background-position: center;
-    background-blend-mode: overlay;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
@@ -25,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("/img/Gemini_Generated_Image_cqr3z9cqr3z9cqr3.png");
+  background-image: url("/img/header.png");
   background-size: cover;
   background-position: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -61,7 +59,7 @@ body {
 }
 
 .nube-main {
-    background-image: url("/img/Gemini_Generated_Image_sxh8b7sxh8b7sxh8.png");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     color: white;
@@ -76,7 +74,7 @@ body {
 
 .nube-p {
     /* background-color: #ffffff; */
-    background-image: url("/img/Gemini_Generated_Image_ujiyasujiyasujiy.png");
+    background-image: url("/img/p.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -144,3 +142,47 @@ body {
 .dropDown.show {
   display: block;
 }
+
+/* CARTA POKEMON */
+.category-container {
+    background-color: rgba(red, green, blue, alfa);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+} 
+
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgb(255, 255, 255);
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.pokemon-card p {
+    margin: 5px 0 0;
+    font-weight: bold;
+} 
