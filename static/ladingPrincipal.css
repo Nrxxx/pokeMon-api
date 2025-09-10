@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("/img/Gemini_Generated_Image_ylcqfjylcqfjylcq.png");
+    background-image: url("/img/body.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,8 +68,10 @@ body {
     padding: 20px 40px;
     border-radius: 50px;
     position: relative;
-    display: inline-block;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    justify-content: center;
 }
 
 .nube-p {
@@ -87,8 +89,259 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.nube-li {
-    background-image: url("/img/Gemini_Generated_Image_lpju1jlpju1jlpju.png");
+.link {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-acero {
+  background-image: url(/img/tipoAcero.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-agua {
+    background-image: url(/img/tipoAgua.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-bicho {
+    background-image: url(/img/tipoBicho.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-dragon {
+    background-image: url(/img/tipoDragon.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-electrico {
+    background-image: url(/img/tipoElectrico.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-fantasma {
+    background-image: url(/img/tipoFantasma.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-fuego {
+    background-image: url(/img/tipoFuego.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-hada {
+    background-image: url(/img/tipoHada.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-hielo {
+    background-image: url(/img/tipoHielo.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-lucha {
+    background-image: url(/img/tipoLucha.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-normal {
+    background-image: url(/img/tipoNormal.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-planta {
+    background-image: url(/img/tipoPlanta.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-psiquico {
+    background-image: url(/img/tipoPsiquico.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-roca {
+    background-image: url(/img/tipoRoca.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-siniestro {
+    background-image: url(/img/tipoSiniestro.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-tierra {
+    background-image: url(/img/tipoTierra.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-veneno {
+    background-image: url(/img/tipoVeneno.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tipo-volador {
+    background-image: url(/img/tipoVolador.png);
     background-size: cover;
     background-position: center;
     color: white;
