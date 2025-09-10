@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-size: large;
     background-image: url("/img/body.png");
     background-size: cover;
     background-position: center;
@@ -67,7 +67,7 @@ body {
     background-image: url("");
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     padding: 20px 40px;
