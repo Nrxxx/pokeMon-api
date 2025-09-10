@@ -38,8 +38,7 @@ body {
 }
 
 .logo {
-    height: 55px;
-    width: 147px;
+    height: 100px;
     max-width: 100%;
 }
 
@@ -58,7 +57,13 @@ body {
     height: 5px;
 }
 
-.nube-main {
+.contenedor-c {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.nube-h1 {
     background-image: url("");
     background-size: cover;
     background-position: center;
@@ -68,10 +73,8 @@ body {
     padding: 20px 40px;
     border-radius: 50px;
     position: relative;
+    display: inline-block;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-    display: flex;
-    justify-content: center;
 }
 
 .nube-p {
