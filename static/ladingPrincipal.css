@@ -392,7 +392,7 @@ body {
 }
 
 .dropDown a:hover {
-  background-color: aqua;
+  background-color: rgb(161, 159, 159);
 }
 
 .dropDown.show {
